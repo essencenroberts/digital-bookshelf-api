@@ -216,5 +216,5 @@ There are a few good options, and each one fits a different situation:
 
 | Option | What it is | When it's useful |
 |---|---|---|
-| **Success message + deleted object** | `200` with a message and the book that was removed | When the app wants to show "You deleted *Dune*" or offer an **undo** button |
+| **Success message + deleted object** | `200` with a message and the book that was removed | When the app wants to show "You deleted *Sharma*" or offer an **undo** button |
 | **Simple success message** | `200` with `{ "message": "Book deleted" }` | When the app just needs to know
